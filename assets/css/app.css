@@ -1,0 +1,119 @@
+ /* Variables */
+
+	/* Colors */
+		/* rgb(93, 220, 248); =  rgb(93, 220, 248)*/
+body{
+	padding:0px;
+	margin:0px;
+
+	background-color: #3312;
+}
+
+.header-img{
+	width:60%;
+	padding:0px;
+	margin:0px;
+}
+
+header{
+	background-color: #124;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+/* *************************************************************** */
+/* **************************** Hands* *************************** */
+/* *************************************************************** */
+
+.card{
+	background-color: darkblue;
+	font-size: 24px;
+
+	height:150px;
+	line-height: 150px;
+
+	vertical-align: middle;
+	text-align: center;
+
+	border-radius: 15px;
+	border: 2px white solid;
+}
+
+.card[color=red]		{	color: red;		}
+.card[color=blue]		{	color: rgb(93, 220, 248);	}
+.card[color=yellow]	{	color: yellow;	}
+.card[color=white]	{	color: white;	}
+.card[color=green]	{	color: green;	}
+
+
+/* *************************************************************** */
+/* *************************** Discard *************************** */
+/* *************************************************************** */
+
+.discard{
+	border:1px black solid;
+}
+
+.discard-color{
+	margin: 10px 0;
+}
+
+.discard-head, .discard-card{
+	font-size: 24px;
+	width: 50px;
+	min-height: 50px;
+	line-height: 50px;
+	vertical-align: middle;
+
+	display:inline-block;
+
+	border-radius: 5px;
+}
+
+/* Cards/Items of discard list per color */
+.discard-card	{		background-color: darkblue; text-align: center;}
+.discard-color-red .discard-card	{	color: red;		}
+.discard-color-blue .discard-card	{	color: rgb(93, 220, 248);		}
+.discard-color-white .discard-card	{	color: white;		}
+.discard-color-yellow .discard-card	{	color: yellow;		}
+.discard-color-green .discard-card	{	color: green;		}
+
+/* Discard headers */
+.discard-head	{	border:1px black solid;}
+.discard-head-red	{ background-color: red;}
+.discard-head-blue	{ background-color: rgb(93, 220, 248); }
+.discard-head-yellow	{ background-color: yellow;}
+.discard-head-white	{ background-color: white;}
+.discard-head-green	{ background-color: green;}
+
+
+/* *************************************************************** */
+/* **************************** Field **************************** */
+/* *************************************************************** */
+
+.field-elt	{	
+	font-size: 24px;
+	width: 100px;
+	min-height: 100px;
+	line-height: 100px;
+	vertical-align: middle;
+
+	display:inline-block;
+
+	border-radius: 5px;
+
+	background-color: darkblue; 
+	text-align: center;
+}
+
+.field-red 		{	border:2px solid  red; color: red;		}
+.field-blue 	{	border:2px solid  rgb(93, 220, 248); color: rgb(93, 220, 248); }
+.field-white 	{	border:2px solid  lightgrey; color: white; }
+.field-yellow 	{	border:2px solid  yellow; color: yellow; }
+.field-green 	{	border:2px solid  green; color: green; }
